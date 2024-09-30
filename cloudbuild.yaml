@@ -1,0 +1,28 @@
+steps:
+  # Install dependencies
+  - name: 'node:14'
+    entrypoint: npm
+    args: ['install']
+
+  # Build the Next.js app
+  - name: 'node:14'
+    entrypoint: npm
+    args: ['run', 'build']
+
+  # Deploy to Cloud Run
+  - name: 'gcr.io/cloud-builders/gcloud'
+    args:
+      - 'run'
+      - 'deploy'
+      - 'your-service-name'
+      - '--image'
+      - 'gcr.io/$PROJECT_ID/your-service-name:$COMMIT_SHA'
+      - '--region'
+      - 'us-central1'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+
+# Build the container image
+images:
+  - 'gcr.io/$PROJECT_ID/your-service-name:$COMMIT_SHA'

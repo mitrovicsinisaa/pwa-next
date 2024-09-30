@@ -1,0 +1,146 @@
+[debug] [2024-09-30T19:15:05.969Z] ----------------------------------------------------------------------
+[debug] [2024-09-30T19:15:05.971Z] Command:       /opt/homebrew/Cellar/node/22.5.1/bin/node /Users/sinisamitrovic/.npm-packages/bin/firebase init
+[debug] [2024-09-30T19:15:05.971Z] CLI Version:   13.20.1
+[debug] [2024-09-30T19:15:05.971Z] Platform:      darwin
+[debug] [2024-09-30T19:15:05.971Z] Node Version:  v22.5.1
+[debug] [2024-09-30T19:15:05.971Z] Time:          Mon Sep 30 2024 21:15:05 GMT+0200 (Central European Summer Time)
+[debug] [2024-09-30T19:15:05.971Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-30T19:15:05.975Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-30T19:15:05.976Z] > authorizing via signed-in user (mitrovic.sinisaa@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/sinisamitrovic/Desktop/docker-projects/pwa/pwa-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-09-30T19:16:24.209Z] Checked if tokens are valid: true, expires at: 1727727283982
+[debug] [2024-09-30T19:16:24.210Z] Checked if tokens are valid: true, expires at: 1727727283982
+[debug] [2024-09-30T19:16:24.211Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-09-30T19:16:24.211Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"pwaapp","name":"pwaapp"}
+[debug] [2024-09-30T19:16:24.566Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2024-09-30T19:16:24.566Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-09-30T19:16:24.686Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (/Users/sinisamitrovic/.npm-packages/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/Users/sinisamitrovic/.npm-packages/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID pwaapp. Please try again with a unique project ID.
+[debug] [2024-09-30T19:16:33.544Z] ----------------------------------------------------------------------
+[debug] [2024-09-30T19:16:33.546Z] Command:       /opt/homebrew/Cellar/node/22.5.1/bin/node /Users/sinisamitrovic/.npm-packages/bin/firebase init
+[debug] [2024-09-30T19:16:33.546Z] CLI Version:   13.20.1
+[debug] [2024-09-30T19:16:33.546Z] Platform:      darwin
+[debug] [2024-09-30T19:16:33.546Z] Node Version:  v22.5.1
+[debug] [2024-09-30T19:16:33.546Z] Time:          Mon Sep 30 2024 21:16:33 GMT+0200 (Central European Summer Time)
+[debug] [2024-09-30T19:16:33.546Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-30T19:16:33.551Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-30T19:16:33.551Z] > authorizing via signed-in user (mitrovic.sinisaa@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/sinisamitrovic/Desktop/docker-projects/pwa/pwa-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-09-30T19:17:00.313Z] Checked if tokens are valid: true, expires at: 1727727283982
+[debug] [2024-09-30T19:17:00.313Z] Checked if tokens are valid: true, expires at: 1727727283982
+[debug] [2024-09-30T19:17:00.315Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-09-30T19:17:00.315Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"pwa-app","name":"pwa-app-db"}
+[debug] [2024-09-30T19:17:00.649Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2024-09-30T19:17:00.649Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2024-09-30T19:17:00.783Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (/Users/sinisamitrovic/.npm-packages/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/Users/sinisamitrovic/.npm-packages/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID pwa-app. Please try again with a unique project ID.
+[debug] [2024-09-30T19:17:12.798Z] ----------------------------------------------------------------------
+[debug] [2024-09-30T19:17:12.799Z] Command:       /opt/homebrew/Cellar/node/22.5.1/bin/node /Users/sinisamitrovic/.npm-packages/bin/firebase init
+[debug] [2024-09-30T19:17:12.800Z] CLI Version:   13.20.1
+[debug] [2024-09-30T19:17:12.800Z] Platform:      darwin
+[debug] [2024-09-30T19:17:12.800Z] Node Version:  v22.5.1
+[debug] [2024-09-30T19:17:12.800Z] Time:          Mon Sep 30 2024 21:17:12 GMT+0200 (Central European Summer Time)
+[debug] [2024-09-30T19:17:12.800Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-30T19:17:12.804Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-30T19:17:12.804Z] > authorizing via signed-in user (mitrovic.sinisaa@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/sinisamitrovic/Desktop/docker-projects/pwa/pwa-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-09-30T19:17:37.899Z] Checked if tokens are valid: true, expires at: 1727727283982
+[debug] [2024-09-30T19:17:37.899Z] Checked if tokens are valid: true, expires at: 1727727283982
+[debug] [2024-09-30T19:17:37.901Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-09-30T19:17:37.901Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"smitrovic-pwa","name":"smitrovic-pwa"}
+[debug] [2024-09-30T19:17:38.924Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2024-09-30T19:17:38.924Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.7537153539566791944"}
+[debug] [2024-09-30T19:17:38.925Z] Checked if tokens are valid: true, expires at: 1727727283982
+[debug] [2024-09-30T19:17:38.925Z] Checked if tokens are valid: true, expires at: 1727727283982
+[debug] [2024-09-30T19:17:38.925Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7537153539566791944 [none]
+[debug] [2024-09-30T19:17:39.864Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7537153539566791944 200
+[debug] [2024-09-30T19:17:39.864Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7537153539566791944 {"name":"operations/cp.7537153539566791944"}
+[debug] [2024-09-30T19:17:40.367Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-09-30T19:17:40.368Z] Checked if tokens are valid: true, expires at: 1727727283982
+[debug] [2024-09-30T19:17:40.369Z] Checked if tokens are valid: true, expires at: 1727727283982
+[debug] [2024-09-30T19:17:40.369Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7537153539566791944 [none]
+[debug] [2024-09-30T19:17:40.675Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7537153539566791944 200
+[debug] [2024-09-30T19:17:40.675Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7537153539566791944 {"name":"operations/cp.7537153539566791944"}
+[debug] [2024-09-30T19:17:41.677Z] [Project Creation Poller] Retrying task index 0
+[debug] [2024-09-30T19:17:41.679Z] Checked if tokens are valid: true, expires at: 1727727283982
+[debug] [2024-09-30T19:17:41.680Z] Checked if tokens are valid: true, expires at: 1727727283982
+[debug] [2024-09-30T19:17:41.680Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7537153539566791944 [none]
+[debug] [2024-09-30T19:17:43.950Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7537153539566791944 200
+[debug] [2024-09-30T19:17:43.951Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.7537153539566791944 {"name":"operations/cp.7537153539566791944","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"659195578800","projectId":"smitrovic-pwa","lifecycleState":"ACTIVE","name":"smitrovic-pwa","createTime":"2024-09-30T19:17:40.509635Z"}}
+[debug] [2024-09-30T19:17:43.953Z] Checked if tokens are valid: true, expires at: 1727727283982
+[debug] [2024-09-30T19:17:43.953Z] Checked if tokens are valid: true, expires at: 1727727283982
+[debug] [2024-09-30T19:17:43.953Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/smitrovic-pwa:addFirebase [none]
+[debug] [2024-09-30T19:17:45.120Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/smitrovic-pwa:addFirebase 403
+[debug] [2024-09-30T19:17:45.120Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/smitrovic-pwa:addFirebase {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-09-30T19:17:45.121Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-09-30T19:17:45.254Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (/Users/sinisamitrovic/.npm-packages/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/Users/sinisamitrovic/.npm-packages/lib/node_modules/firebase-tools/lib/apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.

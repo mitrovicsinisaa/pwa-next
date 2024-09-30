@@ -1,5 +1,6 @@
 import Image from "next/image";
 import localFont from "next/font/local";
+import Link from 'next/link'
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -36,6 +37,9 @@ export default function Home() {
           </li>
           <li>Save and see your changes instantly.</li>
         </ol>
+        <Link href="/media" className="text-blue-500 hover:underline">
+          Go to Media Capture Page
+        </Link>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <a
